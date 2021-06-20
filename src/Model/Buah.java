@@ -70,5 +70,69 @@ public class Buah {
         this.namabuah = namabuah;
         this.musimbuah = musimbuah;
     }
+    //getter and setter
 
+    public String getNamabuah() {
+        return namabuah;
+    }
+
+    public void setNamabuah(String namabuah) {
+        this.namabuah = namabuah;
+    }
+
+    public String getJenisbuah() {
+        return jenisbuah;
+    }
+
+    public void setJenisbuah(String jenisbuah) {
+        this.jenisbuah = jenisbuah;
+    }
+
+    public String getWarnabuah() {
+        return warnabuah;
+    }
+
+    public void setWarnabuah(String warnabuah) {
+        this.warnabuah = warnabuah;
+    }
+
+    public String getAsalbuah() {
+        return asalbuah;
+    }
+
+    public void setAsalbuah(String asalbuah) {
+        this.asalbuah = asalbuah;
+    }
+
+    public String getNamalatin() {
+        return namalatin;
+    }
+
+    public void setNamalatin(String namalatin) {
+        this.namalatin = namalatin;
+    }
+
+    public String getMusimbuah() {
+        return musimbuah;
+    }
+
+    public void setMusimbuah(String musimbuah) {
+        this.musimbuah = musimbuah;
+    }
+
+    public int getBatasbuah() {
+        return batasbuah;
+    }
+
+    public void setBatasbuah(int batasbuah) {
+        this.batasbuah = batasbuah;
+    }
+
+    public String getRasabuah() {
+        return rasabuah;
+    }
+
+    public void setRasabuah(String rasabuah) {
+        this.rasabuah = rasabuah;
+    }
 }
