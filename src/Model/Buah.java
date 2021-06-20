@@ -17,7 +17,7 @@ public class Buah {
     // 4 Method class buah
 
     public void tampilkanAtribut(){
-        Systen.out.println("================================================================")
+        System.out.println("================================================================")
         System.out.println("Nama Buah : "+namabuah);
         System.out.println("Jenis Buah : "+jenisbuah);
         System.out.println("Warna Buah : "+warnabuah);
@@ -37,7 +37,7 @@ public class Buah {
     }
     public boolean create(){
         String insertCreate = "INSERT INTO buah VALUES ('"+namabuah+"', '"+warnabuah+"', "+ batasbuah+")";
-        System.out.prinln(insertCreate);
+        System.out.println(insertCreate);
         boolean berhasil = true;
         if(berhasil) {
             return true;
