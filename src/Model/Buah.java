@@ -1,5 +1,6 @@
 package Model;
 
+//SuperClass/Parent-Class
 public class Buah {
 
     //8 atribute buah
