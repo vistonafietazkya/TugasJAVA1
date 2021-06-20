@@ -16,4 +16,29 @@ public class PembeliBuah extends Buah {
     public void Penjual(){
         String pj = "INSERT INTO Buah VALLUES ('"+namaPenjualBuah+"')";
     }
+    // getter and setter
+
+    public String getNamaPembeliBuah() {
+        return namaPembeliBuah;
+    }
+
+    public void setNamaPembeliBuah(String namaPembeliBuah) {
+        this.namaPembeliBuah = namaPembeliBuah;
+    }
+
+    public String getNamaPenjualBuah() {
+        return namaPenjualBuah;
+    }
+
+    public void setNamaPenjualBuah(String namaPenjualBuah) {
+        this.namaPenjualBuah = namaPenjualBuah;
+    }
+
+    public String getBuahKg() {
+        return buahKg;
+    }
+
+    public void setBuahKg(String buahKg) {
+        this.buahKg = buahKg;
+    }
 }
