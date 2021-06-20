@@ -4,7 +4,7 @@ public class AksiBuah {
     public static void main(String[] args) {
 
         //object Class 1
-        Buah buah1 = new Buah()
+        Buah buah1 = new Buah();
         buah1.namabuah = "Apel";
         buah1.jenisbuah = "Apel Malang";
         buah1.warnabuah = "Hijau";
@@ -18,16 +18,16 @@ public class AksiBuah {
         buah1.create("Pembeli Buah");
 
         //object Class 2
-        Buah buah1 = new Buah()
-        buah1.namabuah = "Jeruk";
-        buah1.jenisbuah = "Jeruk Bali";
-        buah1.warnabuah = "Kemerahan";
-        buah1.asalbuah = "Asia Selatan dan Tenggara";
-        buah1.namalatin = "Citrus Maxima";
-        buah1.musimbuah = "Februari Sampai Mei";
-        buah1.batasbuah = 3;
-        buah1.rasabuah = "Manis dan Masam";
-        buah1.tampilkanInfoBuah();
-        buah1.create();
+        PembeliBuah buah2 = new PembeliBuah();
+        buah2.namabuah = "Jeruk";
+        buah2.jenisbuah = "Jeruk Bali";
+        buah2.warnabuah = "Kemerahan";
+        buah2.asalbuah = "Asia Selatan dan Tenggara";
+        buah2.namalatin = "Citrus Maxima";
+        buah2.musimbuah = "Februari Sampai Mei";
+        buah2.batasbuah = 3;
+        buah2.rasabuah = "Manis dan Masrfd4am";
+        buah2.tampilkanInfoBuah();
+        buah2.create();}}
 
 

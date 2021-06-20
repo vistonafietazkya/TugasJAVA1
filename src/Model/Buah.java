@@ -17,7 +17,7 @@ public class Buah {
     // 4 Method class buah
 
     public void tampilkanAtribut(){
-        System.out.println("================================================================")
+        System.out.println("================================================================");
         System.out.println("Nama Buah : "+namabuah);
         System.out.println("Jenis Buah : "+jenisbuah);
         System.out.println("Warna Buah : "+warnabuah);
@@ -50,6 +50,25 @@ public class Buah {
         System.out.println(insertCreate);
         return false;
 
+    }
+
+    //Constructor
+
+    public Buah(){
+        System.out.println("=============================================================");
+        namabuah = "Please Isi Nama Buah";
+        jenisbuah = "Please Isi Jenis Buah";
+        warnabuah = "Please Isi Warna Buah";
+        rasabuah = "Please Isi Rasa Buah";
+    }
+    public Buah(String jenisbuah, String warnabuah){
+        this.jenisbuah = jenisbuah;
+        this.warnabuah = warnabuah;
+    }
+    public Buah(String namabuah, String musimbuah, String rasabuah){
+        this.rasabuah = rasabuah;
+        this.namabuah = namabuah;
+        this.musimbuah = musimbuah;
     }
 
 }
