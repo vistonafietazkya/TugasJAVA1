@@ -28,6 +28,28 @@ public class AksiBuah {
         buah2.batasbuah = 3;
         buah2.rasabuah = "Manis dan Masrfd4am";
         buah2.tampilkanInfoBuah();
-        buah2.create();}}
+        buah2.create();
+    // Constructor dengan method (object)
+    Buah ba1 = new Buah();
+    ba1.tampilkanAtribut();
+    Buah ba2 = new Buah();
+    ba2.tampilkanInfoBuah();
+
+    Buah ba3 = new Buah("Mangga","Kuning");
+    ba3.tampilkanInfoBuah();
+    Buah ba4 = new Buah("Jeruk", "Hijau");
+    ba4.tampilkanAtribut();
+
+    Buah ba5 = new Buah("Jambu","April sampai Juli","Asam");
+    ba5.tampilkanInfoBuah();
+    Buah ba6 = new Buah("Nanas","Juli sampai November","Manis dan asam");
+    ba6.tampilkanAtribut();
+
+
+    }
+}
+
+
+
 
 
