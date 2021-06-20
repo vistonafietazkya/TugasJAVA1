@@ -45,6 +45,11 @@ public class AksiBuah {
     Buah ba6 = new Buah("Nanas","Juli sampai November","Manis dan asam");
     ba6.tampilkanAtribut();
 
+    //overriding
+        PembeliBuah or =new PembeliBuah();
+        or.create();
+        or.create("Malus Sylvestris");
+
 
     }
 }

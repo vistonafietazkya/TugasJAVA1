@@ -41,4 +41,16 @@ public class PembeliBuah extends Buah {
     public void setBuahKg(String buahKg) {
         this.buahKg = buahKg;
     }
+
+    //overriding
+
+    @Override
+    public boolean create() {
+        return super.create();
+    }
+
+    @Override
+    public boolean create(String namalatin) {
+        return super.create(namalatin);
+    }
 }
